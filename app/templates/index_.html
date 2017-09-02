@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+       #map {
+        height: 400px;
+        width: 100%;
+       }
+    </style>
+  </head>
+  <body>
+    <!-- <h3>My Google Maps Demo</h3> -->
+    <div id="map"></div>
+    <script>
+      function initMap() {
+        var stoDgo = {lat: 18.4847289, lng: -69.919273};
+        var map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 11,
+          center: stoDgo
+        });
+        var marker = new google.maps.Marker({
+          position: stoDgo,
+          title : 'Hello',
+          map: map
+        });
+      }
+    </script>
+	    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDc-RqMudFgj_-rk8VmaNQA9PPa_p47SLI&callback=initMap">
+    </script>
+  </body>
+</html>
