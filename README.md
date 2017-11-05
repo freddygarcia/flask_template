@@ -1,4 +1,12 @@
+<h1>REDME</h1>
 
+<p> To whom may be interest to collaborate in this project this will be the steps</p>
+
+<br>
+
+<p> just pull the repository <code> git pull https://github.com/alejandromorrison/flask_template.git</code>
+<br>
+and then use <code>python install requirements.txt</p> 
 Flask Project Template
 ===================
 
@@ -50,4 +58,5 @@ project
 │   │           master.html
 │   │
 ```
+
 
