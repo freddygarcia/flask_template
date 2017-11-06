@@ -1,4 +1,4 @@
-<h1>REDME</h1>
+<h1>README</h1>
 
 <p> To whom may be interest to collaborate in this project this will be the steps</p>
 
